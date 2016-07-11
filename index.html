@@ -1,19 +1,52 @@
-<div id="wrapper">
-  <div id="timer">
-    <h1><i class = "fa fa-clock-o"></i> Pomodoro Timer <i class = "fa fa-clock-o"></i></h1>
-    <form>
-      <input type="text" name="hour" id="hours" class="makeInactive" value="00"></input> :
-      <input type="text" class="makeInactive" name="mins" id="mins" value="25"></input> :
-      <input type="text" class="makeInactive"name="secs" id="secs" value="00"></input>
-    </form>
-<div id = "message"></div>
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Timer</title>
+    
+<script src="https://use.fontawesome.com/dd581c656b.js"></script>
 
-    <button id="start" class="btn btn-lg btn-success makeInactive">Start</button>
-    <button id="stop" class="btn btn-lg btn-danger" disabled>Stop</button>
-    <button id="reset" class="btn btn-lg btn-warning makeInactive">Reset</button>
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+  <div id="timer">
+    <h1>Pomodoro Timer</h1>
+    <form>
+      <input type="text" name="hour" class="hours makeInactive" value="00"></input> :
+      <input type="text" class="mins makeInactive" name="mins" value="25"></input> :
+      <input type="text" class="secs makeInactive"name="secs" value="00"></input>
+    </form>
+<div class = "message"></div>
+
+    <button class="start btn btn-lg btn-success makeInactive">Start</button>
+    <button class="pause btn btn-lg btn-danger" disabled>Pause</button>
+    <button class="reset btn btn-lg btn-warning makeInactive">Reset</button>
     <div class="progress">
-      <div id="animation" class="progress-bar progress-bar-info progress-bar-striped">
-      </div>
+      <div class="animation progress-bar progress-bar-info progress-bar-striped">
+        </div></div>
+    
+    <div class = "clock"><i class = "fa fa-clock-o"></i>    
+        
     </div>
   </div>
 </div>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
