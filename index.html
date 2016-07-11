@@ -1,0 +1,19 @@
+<div id="wrapper">
+  <div id="timer">
+    <h1><i class = "fa fa-clock-o"></i> Pomodoro Timer <i class = "fa fa-clock-o"></i></h1>
+    <form>
+      <input type="text" name="hour" id="hours" class="makeInactive" value="00"></input> :
+      <input type="text" class="makeInactive" name="mins" id="mins" value="25"></input> :
+      <input type="text" class="makeInactive"name="secs" id="secs" value="00"></input>
+    </form>
+<div id = "message"></div>
+
+    <button id="start" class="btn btn-lg btn-success makeInactive">Start</button>
+    <button id="stop" class="btn btn-lg btn-danger" disabled>Stop</button>
+    <button id="reset" class="btn btn-lg btn-warning makeInactive">Reset</button>
+    <div class="progress">
+      <div id="animation" class="progress-bar progress-bar-info progress-bar-striped">
+      </div>
+    </div>
+  </div>
+</div>
