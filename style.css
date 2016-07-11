@@ -1,0 +1,43 @@
+input[type = "text"]{
+  width: 1.5em;
+  margin:  1em 0 1em 0;
+  text-align: center;
+}
+
+button {
+  width: 10em;
+}
+
+#animation { 
+position: relative;
+}
+
+#wrapper { 
+display: table;
+text-align: center;
+  vertical-align: middle;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.progress {
+  margin: 5%;
+}
+
+#timer {
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 600px;
+  padding: 10%;
+}
+
+html, body {
+  height: 100%;
+  font-size: 150%;
+    text-align: center;
+}
+
+h1 {
+  font-size: 150%;
+}
